@@ -1,0 +1,11 @@
+POST /geolocations HTTP/1.1
+Authorization: Bearer eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiY3R5IjoiSldUIn0.Nz47ZIo0K7GWLyfD89RxefN1fzFxOKQ-_HSNay2qWYrmjZamrVgI6g.5CMUECGr33R82pg7GVUZUA.a938YPPTRnloqjJC6eV2PobKVfV4jOEhh0Q-mjjSef-hteJryK9vMWA8wqUfcR70rRNEBduLvO2JkFXV6IDahd5rS2xNgbQrbGjHZ3KkzNAI9gaSGtloV_8IGd9khjKIlCPRBC9qL9eTHWza45vtJwDpNoqxPUeWdPXZtxsXz7duEjtTiIae1hm02feCBHIt3ttiDIHhfK1bPTeAxz3ESrt9v2bvKVFVKL9F--yJoM-NVawcVyctigc34Us0A_5HXQaxofr1fbc0TUU17xhXAD5qFSepl80BsZ3dgvdpNWBXShb60gLyrpUJVvKcbp9m9F92cHRRC7TUViD1qOr7Rwhvd2QiSyPx12f74sHtTlMzZo9g7S_3Mq5m6ljysbbhGIZrn-4q61u03nOFoW_q_5B85SY5wPKr-datJ8aLR1L7hcJat6We0M3H0Q2etEEtcmtv49iTx23WX6QSFfYQvlopEW_TwWjiJ4ozNsvert_nObOUpa7lcJJHKVI2aqqc.umQ9OHi_Cpz5QKhoWkRZqA
+x-fmm-extra: {"dist":0,"resultCode":"1002","spAcc":0,"version":"7.2.24.12"}
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G935F Build/R16NW)
+Host: chaser-ap03-apnortheast2.samsungiotcloud.com
+Connection: close
+Accept-Encoding: gzip, deflate
+Content-Length: 499
+
+{"items":[{"geolocation":{"accuracy":"17.657","battery":"FULL","latitude":"-35.2759814","longitude":"149.1287389","method":"wifi","rssi":"-54","speed":"0.0","timeStamp":1658238857902,"valid":true},"tagAdvertisement":{"serviceData":"EgIAALQSVrnbMr7KwwAAAKbOJ+k="}}],"findNode":{"configuration":{"allowManualGeolocation":false,"allowedNlpGap":2000,"src":"chaser"},"host":"GALAXY_PHONE","id":"b50caaf12de...","type":"MOVING","version":"722400012"}}

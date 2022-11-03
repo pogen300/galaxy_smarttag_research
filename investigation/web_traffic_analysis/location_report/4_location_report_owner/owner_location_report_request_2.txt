@@ -1,0 +1,11 @@
+POST /geolocations/5e157b3d-3889-4206-a3f8-419b6f5e42da HTTP/1.1
+Authorization: Bearer eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiY3R5IjoiSldUIn0.xI7g-aRU8F1au_0hMtrzbl0P9wDLE640TrLE1LO-wSSJGpFHc1LSIw.wrmkQPOfn5j_3BcdFuMCYg.knOb92_MfGKlwjLoP91lwKRKQNewdOrs9aw8djdyeHBG0olDo_64wGVOPb1-HJEKLVt3TYr4LITq4sa1kf9vAAh7Ev50qfeM5rabJMqYadq0Fgzl4pnvEhLSIHrZN2GB6pIxZCyGjV1bngDKlNa2Fk1Du2i1WlzlFu-emivBSxntQWNyBoipFF9qo2cyVXgDwkCUm1lx18o6c783vgvnM1Ml9jnFmX1li5tLANZmw9BBbAZ4YNBwSW2_qdvyfMQ9rS9L0_5DmptGcfYC-Hux3x9jHyJjRxwo5egVKsyNh5h4JiWDZotTTVfQZNvTOk1wuTGcWLKxQvOxrBi95z1PV9CoxVKzAmilL_Wkuor5PELdw7FqeuG21SoyHeEPNGIrx6DClHm5FTq1X6RUq-rZrRA6zw8LmQcYFywVN4dOVy5jTMc4w2FENEX5ObcwOjYOCy4O6KDYBE-Zo585br7F79RkLvppFGBbwyq4fmG1qR2z8wV43Fd3OnNhsz4-2k1F.GYOko5sH5NFr34htD6iwzQ
+x-fmm-extra: {"dist":0,"spAcc":0,"version":"7.2.24.12"}
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G935F Build/R16NW)
+Host: chaser-ap03-apnortheast2.samsungiotcloud.com
+Connection: close
+Accept-Encoding: gzip, deflate
+Content-Length: 616
+
+{"connectedDevice":{"id":"12c1...","name":"Galaxy S7 edge"},"connectedUser":{"id":"pr...","name":"T Y"},"d2dStatus":"gattConnected","findNode":{"configuration":{"allowManualGeolocation":false,"allowedNlpGap":2000,"src":"chaser"},"host":"GALAXY_PHONE","id":"b50caaf12...","type":"MOVING","version":"722400012"},"geolocation":{"accuracy":"15.935","battery":"FULL","latitude":"-35.2760453","longitude":"149.1288648","method":"wifi","rssi":"-10","speed":"0.0","timeStamp":1663076000119,"valid":true},"nearby":true,"onDemand":true}

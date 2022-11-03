@@ -1,0 +1,55 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="ble_app_buttonless_dfu_aes_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_buttonless_dfu_aes_pca10056_s140;ble_app_buttonless_dfu_aes_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_buttonless_dfu_aes_pca10056_s140;ble_app_buttonless_dfu_aes_pca10056_s140;nRF_DFU"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="236" useTextEdit="1" path="../../../main.c" left="0" top="232" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="6" y="785" useTextEdit="1" path="../config/sdk_config.h" left="0" top="782" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="142" useTextEdit="1" path="../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" left="0" top="142" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="53" y="261" useTextEdit="1" openedFrom="/home/user1/Downloads/nRF5_SDK_17.1.0/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu.c" left="0" top="257" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="222" useTextEdit="1" openedFrom="/home/user1/Downloads/nRF5_SDK_17.1.0/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu.h" left="0" top="219" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="226" useTextEdit="1" openedFrom="/home/user1/Downloads/nRF5_SDK_17.1.0/components/ble/ble_services/ble_dfu/ble_dfu.c" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" left="0" selected="1" top="85" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="352" useTextEdit="1" openedFrom="/home/user1/Downloads/nRF5_SDK_17.1.0/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" path="../../../../../../components/softdevice/s140/headers/ble_gatts.h" left="0" top="349" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="339" useTextEdit="1" openedFrom="/home/user1/Downloads/nRF5_SDK_17.1.0/components/ble/ble_services/ble_dfu/ble_dfu_unbonded.c" path="../../../../../../components/ble/common/ble_srv_common.h" left="0" top="336" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="210" useTextEdit="1" openedFrom="/home/user1/Downloads/nRF5_SDK_17.1.0/components/ble/common/ble_srv_common.h" path="../../../../../../components/softdevice/s140/headers/ble_gatt.h" left="0" top="199" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="161" useTextEdit="1" path="../../../../../../components/ble/ble_services/ble_dfu/ble_dfu_bonded.c" left="0" top="158" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="ble_app_buttonless_dfu_aes_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Date: Sat, 15 Oct 2022 15:47:40 GMT
+Content-Type: application/vnd.smartthings+json; v=20200730
+Content-Length: 49
+Connection: close
+Server: openresty
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 100
+X-RateLimit-Reset: 19970
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: DNT,Keep-Alive,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,X-ST-Client,X-ST-Api-Version,X-ST-Client-AppVersion,X-ST-Client-OS,X-ST-Client-DeviceModel
+
+{"own":false,"lostMessage":{"type":"PREDEFINED"}}

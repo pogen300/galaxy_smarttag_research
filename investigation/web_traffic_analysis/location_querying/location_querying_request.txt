@@ -1,0 +1,16 @@
+POST /installedapps/4a70a173-bcce-4b32-a47d-e05c0cf33204/execute HTTP/1.1
+X-ST-Client-OS: Android 8.0.0
+X-ST-Client-DeviceModel: samsung SM-G935F universal8890
+X-ST-Client-AppVersion: 1.7.89.25
+User-Agent: Android/OneApp/1.7.89.25/Core (SM-G935F; Android O/8.0.0) SmartKit/4.257.4
+Authorization: Bearer AUI71AGQpJ3jDRzSPJSfaNhvC
+Accept: application/vnd.smartthings+json;v=1
+Accept-Language: en-AU
+X-ST-CORRELATION: 4917907c-c3f9-4879-a23d-19dcae9ef65e
+Content-Type: application/json; charset=UTF-8
+Content-Length: 391
+Host: api.smartthings.com
+Connection: close
+Accept-Encoding: gzip, deflate
+
+{"parameters":{"requester":"hd...","clientType":"aPlugin","extraUri":"/trackers/4e515598.../geolocations?order=asc&startTime=1665858607430&endTime=1665925199999&isSummary=true&limit=200","method":"GET","encodedHeaders":"eyJYLUlPVC1VSUQiOiJoZDFqZXF6Y3FjIn0=","requesterToken":"CiAZrxhmcL3u5Rg3ThjTgg5v2","encodedBody":"","clientVersion":"1","uri":"/trackerapi"}}

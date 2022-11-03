@@ -1,0 +1,6 @@
+GET /chaser/trackers/lostmessage?serialNumber=F2...&modelName=EI-T5300&mnId=0AFD&setupId=430 HTTP/1.1
+Authorization: Bearer BVovtm3VvXdImywAlmozjdVNx
+Host: client.smartthings.com
+Content-Length: 2
+
+

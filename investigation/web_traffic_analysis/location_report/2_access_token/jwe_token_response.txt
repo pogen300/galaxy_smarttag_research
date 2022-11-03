@@ -1,0 +1,7 @@
+HTTP/1.1 200 
+Date: Wed, 14 Sep 2022 13:41:09 GMT
+Content-Type: application/json
+Content-Length: 893
+Connection: close
+
+{"accessToken":"eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiY3R5IjoiSldUIn0.qM9NKV7QTnxGlws1oRr3a_--bRXY4xhvUi6wMwJ34JK7pbCDUI_mkQ.mFZTByo8fpLYUJD7apuZRQ.HnPzL4ruD-_8URzT4dK_RbStqtsg0YryzSgzAk3iVNgOu9YN54MnaH9Guy8qT-wtFqWeHX3bzoc2GoPD2_AexA8WvT4lQVeZxagrS3tx7GV2YteWzCEPM2weqjTOaWiYZ4IUD0J8ojMuZwkqRg6byZIDxVIfEhbGK_HY9a9GU2Jk56T5tk53XIL2c5u72Z3vSR--ssY92DIT99YsW0yxJ_d4tAbuASSYxpbhKHOOr9S7bKCjGg8ptrtZUzNqrlExMUE_SlCQL8Vmq8MknnopRAXomNyApyx6qDv6FeZfR-Bcl_DNPYPHdCcH5-HXvZoxgwLVYQ92n8VoWyHOOa9XCWKdCWFmJkRCoyWTUvy1gcEVYYfV3gdWx6SDhbV-7QyKOlJjCnwyE48PlPkr-FTJ8Lqy65laY4GMKQY48qNWfMxaiD9DuQcVrTcB9dKGtn6cuxBco-UnKvZcgISbKqzxGDvnj6XCqQmbdCgg7urWBC9jAsRB8ry6EsgH9h6VUQe6.zovN_S2bp_FIOAk3PSbl0g","expirationTime":1663246929000,"findNode":{"type":"MOVING","host":"GALAXY_PHONE","version":"722500014","configuration":{"allowManualGeolocation":false,"allowedNlpGap":2000,"utaRssiFilter":-85}}}

@@ -1,0 +1,6 @@
+GET /nonce HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G935F Build/R16NW)
+Host: chaser-ap03-apnortheast2.samsungiotcloud.com
+Connection: close
+Accept-Encoding: gzip, deflate
+

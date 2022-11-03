@@ -1,0 +1,7 @@
+GET /v1/miniature/profile/c02e8c67-605d-44fc-89c6-2b7026b30b59 HTTP/1.1
+Authorization: A0kGvrzxff2sbEjcZQFhgtaZL
+Host: apis.samsungiotcloud.com
+Connection: close
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/3.12.13
+

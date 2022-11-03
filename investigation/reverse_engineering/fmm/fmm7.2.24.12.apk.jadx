@@ -1,0 +1,166 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "fmm_7_2_24_12.apk"
+  ],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "Samsung Find My Mobile_7.2.24.12_apkcombo.com.apk"
+    ],
+    [
+      "samsung",
+      "com",
+      "Source code",
+      "Samsung Find My Mobile_7.2.24.12_apkcombo.com.apk"
+    ],
+    [
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "Samsung Find My Mobile_7.2.24.12_apkcombo.com.apk"
+    ],
+    [
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "Samsung Find My Mobile_7.2.24.12_apkcombo.com.apk"
+    ],
+    [
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "Samsung Find My Mobile_7.2.24.12_apkcombo.com.apk"
+    ],
+    [
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "Samsung Find My Mobile_7.2.24.12_apkcombo.com.apk"
+    ],
+    [
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "org.bouncycastle",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.d"
+        },
+        "newName": "TrackerManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "fmeKeyStore"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "a()Lorg/json/JSONArray;"
+        },
+        "newName": "checkOvermatureDeviceList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "b(I)Z"
+        },
+        "newName": "checkToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "i()Lorg/json/JSONArray;"
+        },
+        "newName": "getOvermatureDeviceList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "j()Ljava/security/Key;"
+        },
+        "newName": "getPrivateKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "k(Ljava/lang/String;)Lcom/samsung/android/fme/offlinefinding/task/auth/vo/TrackerAuthRequestVO;"
+        },
+        "newName": "storeCertificateChain"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "n()Ljava/security/KeyStore;"
+        },
+        "newName": "Loadkeystore"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "o(Ljava/lang/String;)[B"
+        },
+        "newName": "signKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.d",
+          "shortId": "p(Ljava/lang/String;)V"
+        },
+        "newName": "updateOvermatureDeviceList"
+      }
+    ]
+  },
+  "openTabs": [],
+  "activeTab": 0
+}

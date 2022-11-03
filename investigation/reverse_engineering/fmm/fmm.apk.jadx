@@ -1,0 +1,982 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "/home/user/galaxy_smarttag_research/investigation/reverse_engineering/fmm/fmm_7_2_24_12.apk"
+  ],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "sec",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "helper.p202vo",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "android.diagmonagent",
+      "sec",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "dsm.system",
+      "sec",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p246d.p247a",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p183c.p184a",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p082b",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p000a",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p047k.p048a",
+      "p000a",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p018e",
+      "p000a",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p017d",
+      "p000a",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p145d.p146a",
+      "p082b",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p086b",
+      "p082b",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p125b",
+      "p086b",
+      "p082b",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "antitracking",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "antitracking",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_20_7.apk"
+    ],
+    [
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "report.p244vo",
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "antitracking",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7_2_22_12.apk"
+    ],
+    [
+      "Resources",
+      "fmm.apk"
+    ],
+    [
+      "report.p214vo",
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "register.p213vo",
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "lba.p212vo",
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "auth.p211vo",
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p196f",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p195e",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p199g",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p200h",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p204i",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p205b",
+      "p204i",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p206j",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p207k",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p208a",
+      "p207k",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "p210l",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "LocationTasks",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm.apk"
+    ],
+    [
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ],
+    [
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ],
+    [
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ],
+    [
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ],
+    [
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ],
+    [
+      "task",
+      "offlinefinding",
+      "fme",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "fmm_7.2.23.5.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.b"
+        },
+        "newName": "CFDvcDBHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.f"
+        },
+        "newName": "DBGFMESEC"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.antitracking.a"
+        },
+        "newName": "TagAntiTrackingDBHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.antitracking.b"
+        },
+        "newName": "TagAntiTrackingDBOpenHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.g.a"
+        },
+        "newName": "HelperLocationManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.h.b"
+        },
+        "newName": "TrackerHttpReqeuster"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.j.a"
+        },
+        "newName": "SPositionManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.key.d"
+        },
+        "newName": "OfflineFindingSpecV2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.i"
+        },
+        "newName": "CFHelperLocationTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.j"
+        },
+        "newName": "CFReportLocationTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k"
+        },
+        "newName": "CFReportSubTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.m"
+        },
+        "newName": "CFTaskManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.y"
+        },
+        "newName": "TrackerAuthTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.z"
+        },
+        "newName": "TrackerReportLocationTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "c:Ljava/util/List;"
+        },
+        "newName": "devices"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k",
+          "shortId": "a:Lcom/samsung/android/fme/f;"
+        },
+        "newName": "logCFReportSubTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.m",
+          "shortId": "g:I"
+        },
+        "newName": "deviceCnt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.offlinefinding.task.TrackerReportLocationTask",
+          "shortId": "regionGroup:Ljava/util/ArrayList;"
+        },
+        "newName": "cfDevices"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "a:Lcom/samsung/android/fme/f;"
+        },
+        "newName": "fmeSupportUnknownTagService"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "b:Landroid/os/PowerManager$WakeLock;"
+        },
+        "newName": "wakelock"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "e:I"
+        },
+        "newName": "index"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "o:Ljava/util/List;"
+        },
+        "newName": "unknownTagSearchVOList"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "p:Ljava/util/List;"
+        },
+        "newName": "unknownTagSearchVOList2"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "q:I"
+        },
+        "newName": "scanDuration"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "r:I"
+        },
+        "newName": "numOfScanTimes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "s:I"
+        },
+        "newName": "rssiFilter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.fme.plugin.vo.TrackerLocationRequestVO",
+          "shortId": "id:Ljava/lang/String;"
+        },
+        "newName": "privacyID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "a(Lcom/samsung/android/fme/CFDevice;)J"
+        },
+        "newName": "addDeviceInDB"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "b(Lcom/samsung/android/fme/CFDevice;)J"
+        },
+        "newName": "addScannedFmeDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "c(Lcom/samsung/android/fme/CFDevice;)I"
+        },
+        "newName": "checkDeviceList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "e(Lcom/samsung/android/fme/CFDevice;)Z"
+        },
+        "newName": "contains"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "g(Ljava/lang/String;ZI)Ljava/util/ArrayList;"
+        },
+        "newName": "getAllLostDeviceListForReport"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "h(Landroid/content/Context;)Lcom/samsung/android/fme/b;"
+        },
+        "newName": "init"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "j(Landroid/database/Cursor;)Lcom/samsung/android/fme/CFDevice;"
+        },
+        "newName": "getDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "m()I"
+        },
+        "newName": "removeUselessScannedDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "n()V"
+        },
+        "newName": "resetDB"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "o(Lcom/samsung/android/fme/CFDevice;)I"
+        },
+        "newName": "updateDeviceInDB"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.b",
+          "shortId": "p()V"
+        },
+        "newName": "updateFailStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.TrackerManager",
+          "shortId": "updateOvermatureDeviceList(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "pid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.key.a",
+          "shortId": "b([BLjava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "encryptString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.key.d",
+          "shortId": "a()Lcom/samsung/android/fme/offlinefinding/task/register/vo/PolicyVO;"
+        },
+        "newName": "getPolicy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k",
+          "shortId": "b(ILjava/util/ArrayList;)Lorg/json/JSONObject;"
+        },
+        "newName": "getPubKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k",
+          "shortId": "b(ILjava/util/ArrayList;)Lorg/json/JSONObject;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393218
+        },
+        "newName": "reportLocation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k",
+          "shortId": "d(Ljava/util/ArrayList;)Lcom/samsung/android/fme/offlinefinding/task/report/vo/CFReportLocationVO;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131075
+        },
+        "newName": "logCFReportSubTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k",
+          "shortId": "d(Ljava/util/ArrayList;)Lcom/samsung/android/fme/offlinefinding/task/report/vo/CFReportLocationVO;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "cfDevices"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.k",
+          "shortId": "d(Ljava/util/ArrayList;)Lcom/samsung/android/fme/offlinefinding/task/report/vo/CFReportLocationVO;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393219
+        },
+        "newName": "cfDevicesIterator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.m",
+          "shortId": "a(Landroid/content/Context;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327691
+        },
+        "newName": "policyVO"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.m",
+          "shortId": "g()V"
+        },
+        "newName": "initScanReportCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.l.m",
+          "shortId": "h()Z"
+        },
+        "newName": "isDeviceCntExceedingMax"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.offlinefinding.task.CFReportLocationTask",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65539
+        },
+        "newName": "tagList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "F(Lcom/samsung/android/fme/CFDevice;)V"
+        },
+        "newName": "updateOvermatureDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "P(Lcom/samsung/android/fme/CFDevice;)Z"
+        },
+        "newName": "isOvermature"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.fme.plugin.FmeSupportUnknownTagService",
+          "shortId": "g0()V"
+        },
+        "newName": "stopSearching"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "com.samsung.android.fme.offlinefinding.l",
+          "shortId": ""
+        },
+        "newName": "LocationTasks"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.fme.CFDevice",
+      "subPath": "java",
+      "caret": 206,
+      "view": {
+        "x": 0,
+        "y": 1193
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.fmm.schedule.ScheduledTaskReceiver",
+      "subPath": "java",
+      "caret": 270,
+      "view": {
+        "x": 69,
+        "y": 107
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.fme.offlinefinding.OfflineFindingService",
+      "subPath": "java",
+      "caret": 9091,
+      "view": {
+        "x": 0,
+        "y": 3651
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 0
+}

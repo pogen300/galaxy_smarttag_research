@@ -1,0 +1,19 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.2.2' apply false
+    id 'com.android.library' version '7.2.2' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+task copyJniLibs(type: Copy) {
+    from 'libs/arm64-v8a'
+    into 'src/main/jniLibs/arm64-v8a'
+}
+tasks.withType(JavaCompile) {
+    compileTask -> compileTask.dependsOn(copyJniLibs)
+}
+clean.dependsOn 'cleanCopyJniLibs'
+

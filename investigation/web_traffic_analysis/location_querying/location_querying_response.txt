@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Oct 2022 19:37:58 GMT
+Content-Type: application/json
+Connection: close
+Server: openresty
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: DNT,Keep-Alive,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,X-ST-Client,X-ST-Api-Version,X-ST-Client-AppVersion,X-ST-Client-OS,X-ST-Client-DeviceModel
+Content-Length: 782
+
+{"statusCode":200,"requestId":"4917907c...","message":{"saGuid":"hd...","geolocations":[{"latitude":"-35.2759965","longitude":"149.128842","accuracy":"17.028","lastUpdateTime":1665861154314},{"latitude":"-35.2759661","longitude":"149.128742","accuracy":"17.463","lastUpdateTime":1665861167314},{"latitude":"-40","longitude":"160","accuracy":"18.935","lastUpdateTime":1665861240566},{"latitude":"-40","longitude":"160","accuracy":"18.935","lastUpdateTime":1665861308149},{"latitude":"-40","longitude":"140","accuracy":"18.935","lastUpdateTime":1665861502619},{"latitude":"-40","longitude":"140","accuracy":"18.935","lastUpdateTime":1665861924293},{"latitude":"-35.2759926","longitude":"149.1287178","accuracy":"18.076","lastUpdateTime":1665862144221}]}}

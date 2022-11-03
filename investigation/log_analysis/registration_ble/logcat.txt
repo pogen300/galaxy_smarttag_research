@@ -1,0 +1,185 @@
+08-13 20:13:52.104 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [Arlo] isAppInstalled=false - ($)
+08-13 20:13:52.105 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [August Home] isAppInstalled=false - ($)
+08-13 20:13:52.107 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [Honeywell Home] isAppInstalled=false - ($)
+08-13 20:13:52.108 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [LIFX] isAppInstalled=false - ($)
+08-13 20:13:52.109 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [Nest] isAppInstalled=false - ($)
+08-13 20:13:52.111 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [TP-Link | Kasa Smart] isAppInstalled=false - ($)
+08-13 20:13:52.112 13666 13787 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: C2cOnboardingRecommender.getRecommendation - [Yeelight] isAppInstalled=false - ($)
+08-13 20:15:50.152 13666 13666 D PhoneWindow: forceLight changed to false [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4229 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4029 com.samsung.android.oneconnect.uiutility.utils.d0.c:12 com.samsung.android.oneconnect.common.uibase.BaseAppCompatActivity.onCreate:11 com.samsung.android.oneconnect.onboarding.legacy.ui.view.main.EasySetupActivity.onCreate:1 
+08-13 20:15:50.673 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: UiForegroundChecker.onActivityStarted - Activity list[ui.catalog.adddevice.brand.activity.DeviceCatalogBrandActivity, onboarding.legacy.ui.view.main.EasySetupActivity]
+08-13 20:15:50.720   610  1589 I SurfaceFlinger: id=227 createSurf (720x1600),1 flag=404, com.samsung.android.oneconnect/com.samsung.android.oneconnect.onboarding.legacy.ui.view.main.EasySetupActivity$_13666#0
+08-13 20:15:50.722   897  1383 D WindowManager: makeSurface duration=2 name=com.samsung.android.oneconnect/com.samsung.android.oneconnect.onboarding.legacy.ui.view.main.EasySetupActivity$_13666
+08-13 20:15:50.777 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: ExceptionChecker.checkToStart - mIsWifiAllowed: true isHotspotOnboardingSupported: false isHotspotEnabled: false isWifiSharingEnabled: false
+08-13 20:15:50.829 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]SetupDataChecker.checkAndSetOnboardingInterfaceData - uri.host =null - ($)
+08-13 20:15:50.830 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]SetupDataChecker.checkAndSetOnboardingInterfaceData - null/null/null/null/null/null/MANUAL_ADD/null/[]/false - ($)
+08-13 20:15:51.034 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: UiForegroundChecker.onActivityStopped - Activity list[onboarding.legacy.ui.view.main.EasySetupActivity]
+08-13 20:15:52.601 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]HotspotChecker.checkToStart - isD2dFeatureWorking: trueisWifiEnabled: true isHotspotOnboardingSupportedInCountry: false isHotspotEnabled: false isWifiSharingEnabled: false isDeviceSupportHotspotOnboarding: false
+08-13 20:16:10.719 13666 13666 W [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Montage]EasySetupContentsDbManager.isDataOutdatedForOnboarding - [mnId]0AFD[setupId]439[isDBHasTheLatest]false[serverTimeStamp]Sun May 29 21:31:13 GMT+10:00 2022[updatedTimeDB]Thu Jan 01 09:59:59 GMT+10:00 1970
+08-13 20:16:13.681 13666 13829 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]OnboardingStarter.start - 
+08-13 20:16:13.681 13666 13829 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]TagBleDelegator.startOnboarding - 
+08-13 20:16:13.719 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]OnboardingStarter.sendComplete - 
+08-13 20:16:13.719 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [PreEasySetup]PreparePresenter.onSuccess - step = ONBOARDING_STARTED
+08-13 20:16:13.735  3324 14005 I [+10]oneconnect[1.7.86.21_02][CORE]: CloudLogger.send - log = {"appInstaller":"com.sec.android.app.samsungapps","onboardingEntry":"MANUAL_ADD","stver":"1.7.86.21","bintype":"user","connectingRequestTime":0,"ctry":"AU","currtime":"2022-08-13 20:16:13","detectedTime":0,"tgtcat":"","tgtdi":"","esconntype":"","dumpfileid":"","tgtprot":"","tgttype":"","elaptime":0,"entry":"MANUAL_ADD","errcode":"","errcodeMain":"","errcodeSub":"","hashedId":"","installer":"com.sec.android.app.samsungapps","lang":"en","mnid":"","mfr":"samsung","model":"SM-A127F","modelName":"","osver":"30","os":"android","step":"","result":"BLOCK","sn":"","serverApiRequestId":"","setupid":""}
+08-13 20:16:13.768 13666 13666 D PhoneWindow: forceLight changed to false [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4229 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4029 com.samsung.android.oneconnect.support.onboarding.common.f.a:10 com.samsung.android.oneconnect.ui.onboarding.OnboardingActivity.onCreate:9 android.app.Activity.performCreate:8207 
+08-13 20:16:13.799 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: UiForegroundChecker.onActivityStarted - Activity list[onboarding.legacy.ui.view.main.EasySetupActivity, ui.onboarding.OnboardingActivity]
+08-13 20:16:13.828 13666 13666 I ViewRootImpl@85fc583[OnboardingActivity]: setView = com.android.internal.policy.DecorView@e6142f8 TM=true
+08-13 20:16:13.836   610   625 I SurfaceFlinger: id=233 createSurf (720x1600),1 flag=404, com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.onboarding.OnboardingActivity$_13666#0
+08-13 20:16:13.837   897  2719 D WindowManager: makeSurface duration=1 name=com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.onboarding.OnboardingActivity$_13666
+08-13 20:16:13.846 13666 13666 I ViewRootImpl@85fc583[OnboardingActivity]: Relayout returned: old=(0,0,720,1600) new=(0,0,720,1600) req=(720,1600)0 dur=12 res=0x7 s={true -5476376609483378688} ch=true fn=-1
+08-13 20:16:13.915 13666 13666 I ViewRootImpl@85fc583[OnboardingActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+08-13 20:16:13.915 13666 13666 D InputMethodManager: prepareNavigationBarInfo() DecorView@e6142f8[OnboardingActivity]
+08-13 20:16:13.915 13666 13666 D InputMethodManager: prepareNavigationBarInfo() DecorView@e6142f8[OnboardingActivity]
+08-13 20:16:13.924   610   610 D SurfaceFlinger:      DEVICE | 0xb400007c83eedb80 | 0002 | RGBA_8888    |    0.0    0.0  720.0 1600.0 |    0    0  720 
+08-13 20:16:31.535  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onConnectionStateChange - 0 and 2 with DA:**:**:**:**:**
+08-13 20:16:31.536   610   626 I SurfaceFlinger: id=244 Removed com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.onboarding.OnboardingActivity$_13666#1 (65)
+08-13 20:16:31.541   610   610 I Layer   : id=244[1] Destroyed com.samsung.android.oneconnect/com.samsung.android.oneconnect.ui.onboarding.OnboardingActivity$_13666#1
+08-13 20:16:31.544   610   610 D SurfaceFlinger:      DEVICE | 0xb400007c83eecc80 | 0002 | RGBA_8888    |    0.0    0.0  720.0 1600.0 |    0    0  720 1600 | com.samsung.android.oneconnect/com.s[...]boarding.OnboardingActivity$_13666#0
+08-13 20:16:31.545  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.serviceTargetInternal - subjectServiceFind SERVICE_ONBOARDING
+08-13 20:16:31.549  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.serviceTargetInternal - discoverServices SERVICE_ONBOARDING
+08-13 20:16:33.083  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onServicesDiscovered - 0 with DA:**:**:**:**:**
+08-13 20:16:33.086  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.serviceTargetInternal - subjectServiceFind SERVICE_ONBOARDING_AUTH
+08-13 20:16:33.089  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.serviceTargetInternal - discoverServices SERVICE_ONBOARDING_AUTH
+08-13 20:16:33.092  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onServicesDiscovered - 0 with DA:**:**:**:**:**
+08-13 20:16:33.095  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.serviceTargetInternal - subjectServiceFind SERVICE_ONBOARDING_TIME
+08-13 20:16:33.096  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.serviceTargetInternal - discoverServices SERVICE_ONBOARDING_TIME
+08-13 20:16:33.112  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onServicesDiscovered - 0 with DA:**:**:**:**:**
+08-13 20:16:33.132  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onMtuChanged - 0 and 247 with DA:**:**:**:**:**
+08-13 20:16:33.138  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead BLE_SC_CAPABILITY
+08-13 20:16:33.139  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic BLE_SC_CAPABILITY
+08-13 20:16:33.312  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and be3a2589-1dfa-4a0a-9429-93899936cbed with DA:**:**:**:**:**
+08-13 20:16:33.316  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead HASHED_SERIAL_NUMBER
+08-13 20:16:33.317  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic HASHED_SERIAL_NUMBER
+08-13 20:16:33.446  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 6ac16db1-f442-4bf4-b804-04c32356465d with DA:**:**:**:**:**
+08-13 20:16:33.453  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead MODEL_NAME
+08-13 20:16:33.455  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic MODEL_NAME
+08-13 20:16:33.536  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 5352fee4-f3bc-462c-ba7c-279873bcdd71 with DA:**:**:**:**:**
+08-13 20:16:36.057  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] SecureProvider.cloudSecure - Success to get masterSecret - ($)
+08-13 20:16:36.068  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite CLOUD_PUBLIC_KEY
+08-13 20:16:36.069  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic CLOUD_PUBLIC_KEY
+08-13 20:16:37.415  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite RANDOM_VALUE
+08-13 20:16:37.416  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and b5754629-6821-44c6-a118-492feecf6bb2 with DA:**:**:**:**:**
+08-13 20:16:37.416  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic RANDOM_VALUE
+08-13 20:16:38.159  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and d0e8d14e-3d0b-4bda-9dad-4c2790f36210 with DA:**:**:**:**:**
+08-13 20:16:38.163  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead SUPPORTED_CIPHER
+08-13 20:16:38.165  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic SUPPORTED_CIPHER
+08-13 20:16:38.908  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 5b5f7a4c-257e-4841-92d5-0042658122b6 with DA:**:**:**:**:**
+08-13 20:16:38.911  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite SELECT_CIPHER
+08-13 20:16:38.912  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic SELECT_CIPHER
+08-13 20:16:40.032  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and 6ea31174-87b8-4ff6-98fa-796d87323792 with DA:**:**:**:**:**
+08-13 20:16:40.036  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - true NONCE
+08-13 20:16:40.781  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onDescriptorWrite - 0 and 00002902-0000-1000-8000-00805f9b34fb with DA:**:**:**:**:**
+08-13 20:16:40.784  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - true ENCRYPTED_NONCE
+08-13 20:16:41.538  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onDescriptorWrite - 0 and 00002902-0000-1000-8000-00805f9b34fb with DA:**:**:**:**:**
+08-13 20:16:41.540  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic NONCE
+08-13 20:16:41.541  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite NONCE
+08-13 20:16:42.658  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and a12be31c-5b38-4773-9b9d-3d5735233a7c with DA:**:**:**:**:**
+08-13 20:16:42.659  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.notification - false NONCE
+08-13 20:16:42.662  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicChanged - a12be31c-5b38-4773-9b9d-3d5735233a7c with DA:**:**:**:**:**
+08-13 20:16:42.671  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite ENCRYPTED_NONCE
+08-13 20:16:42.672  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic ENCRYPTED_NONCE
+08-13 20:16:43.785  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and 4ebe81f6-b952-465e-9ece-5ca39d4e8955 with DA:**:**:**:**:**
+08-13 20:16:43.785  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicChanged - 4ebe81f6-b952-465e-9ece-5ca39d4e8955 with DA:**:**:**:**:**
+08-13 20:16:43.789  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.notification - true ENCRYPTED_NONCE
+08-13 20:16:43.790  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - false NONCE
+08-13 20:16:43.791  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - false ENCRYPTED_NONCE
+08-13 20:16:43.798  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead FIRMWARE_VERSION
+08-13 20:16:43.798  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic FIRMWARE_VERSION
+08-13 20:16:45.283  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 30c48d2a-6ccb-4240-9f97-7f97a3f1c030 with DA:**:**:**:**:**
+08-13 20:16:45.287  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead CONFIRM_STATUS
+08-13 20:16:45.289  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic CONFIRM_STATUS
+08-13 20:16:45.291  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] [Presenter]TagBleConnectingPresenter.checkFirmwareVersion - tag firmware version : 01.01.26
+08-13 20:16:46.032  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and f299f805-17b3-43c1-ac12-fbcc59ee2f0d with DA:**:**:**:**:**
+08-13 20:16:46.042  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic SUPPORTED_CONFIRM_METHOD_LIST
+08-13 20:16:46.043  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead SUPPORTED_CONFIRM_METHOD_LIST
+08-13 20:16:46.783  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and b03bd357-034a-4c57-ae56-575d974fc9de with DA:**:**:**:**:**
+08-13 20:16:46.786  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] [Presenter]TagBleConnectingPresenter.gotoNextPage - confirmMethod size : 2 - ($)
+08-13 20:16:46.830 13666 13666 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding] [Presenter]TagBleConfirmButtonPresenter.onViewCreated - IN
+08-13 20:16:46.836  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] [Presenter]TagBleConfirmButtonPresenter.startConfirm - Start
+08-13 20:16:46.839  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - true CONFIRM_RESULT
+08-13 20:16:47.533  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onDescriptorWrite - 0 and 00002902-0000-1000-8000-00805f9b34fb with DA:**:**:**:**:**
+08-13 20:16:47.538  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.notification - true CONFIRM_RESULT
+08-13 20:16:47.541  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite SELECTED_CONFIRM_METHOD
+08-13 20:16:47.541  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic SELECTED_CONFIRM_METHOD
+08-13 20:16:48.281  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and b57a3fe1-cf5e-4644-81ab-134d9f8ccaca with DA:**:**:**:**:**
+08-13 20:16:59.911  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicChanged - 89b0dfcb-0d9e-42b5-bc98-9a786fdc7d35 with DA:**:**:**:**:**
+08-13 20:16:59.912  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - false CONFIRM_RESULT
+08-13 20:16:59.920  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] [Presenter]TagBleConfirmButtonPresenter.startConfirm - OK
+08-13 20:16:59.950  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead IDENTIFIER
+08-13 20:16:59.951  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic IDENTIFIER
+08-13 20:17:00.658  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 08a11e38-1c6d-4929-9c32-4f32a64985ce with DA:**:**:**:**:**
+08-13 20:17:00.660  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead MODEL_NAME
+08-13 20:17:00.664  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic MODEL_NAME
+08-13 20:17:01.407  3324  3756 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 5352fee4-f3bc-462c-ba7c-279873bcdd71 with DA:**:**:**:**:**
+08-13 20:17:08.343 13666 13830 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter.prepareRegistering - 
+08-13 20:17:08.343 13666 13830 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_DefaultRoomProvider.checkCandidateGroup -  - ($)
+08-13 20:17:08.344 13666 13830 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getDeviceInfoFromDevice - 
+08-13 20:17:08.344 13666 13830 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getManufacturer - 
+08-13 20:17:08.344  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding][Presenter]TagBleRegisteringPresenter.checkRegisteredStatus - status = NOT_OCCUPIED - ($)
+08-13 20:17:08.356  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic MNMN
+08-13 20:17:08.357  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead MNMN
+08-13 20:17:08.903 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getVendorId - 
+08-13 20:17:08.905  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 04052818-d201-43eb-9d81-e936dc86ee06 with DA:**:**:**:**:**
+08-13 20:17:08.911  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead VID
+08-13 20:17:08.915  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic VID
+08-13 20:17:10.029 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getIdentifier - 
+08-13 20:17:10.034  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 77b08bec-5890-49d1-b021-811741b417e6 with DA:**:**:**:**:**
+08-13 20:17:10.036  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead IDENTIFIER
+08-13 20:17:10.038  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic IDENTIFIER
+08-13 20:17:11.153 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getConfigurationVersionInfo - 
+08-13 20:17:11.156  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 08a11e38-1c6d-4929-9c32-4f32a64985ce with DA:**:**:**:**:**
+08-13 20:17:11.164  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead CONFIGURATION_VERSION
+08-13 20:17:11.164  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic CONFIGURATION_VERSION
+08-13 20:17:12.279 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getModelName - 
+08-13 20:17:12.281  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 12761292-241c-490c-8424-6f7cc8a8a027 with DA:**:**:**:**:**
+08-13 20:17:12.287  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead MODEL_NAME
+08-13 20:17:12.288  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic MODEL_NAME
+08-13 20:17:13.030 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getFirmwareVersion - 
+08-13 20:17:13.034  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 5352fee4-f3bc-462c-ba7c-279873bcdd71 with DA:**:**:**:**:**
+08-13 20:17:13.039  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead FIRMWARE_VERSION
+08-13 20:17:13.040  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic FIRMWARE_VERSION
+08-13 20:17:13.780 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]DeviceInformation.getSpecVersion - 
+08-13 20:17:13.782  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and 30c48d2a-6ccb-4240-9f97-7f97a3f1c030 with DA:**:**:**:**:**
+08-13 20:17:13.788  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - subjectCharacteristicRead SPEC_VERSION
+08-13 20:17:13.789  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.readInternal - readCharacteristic SPEC_VERSION
+08-13 20:17:14.530  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicRead - 0 and dee3000e-182d-5496-b1ad-14f216324184 with DA:**:**:**:**:**
+08-13 20:17:14.532 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter.requestRegistering -  
+08-13 20:17:14.532 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding]TagCloudModelCore.registerDevice -  - ($)
+08-13 20:17:22.578 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter.setDataToDevice - 
+08-13 20:17:22.579 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.setDataToDevice - 
+08-13 20:17:22.579 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.setAdvertiseID -  - ($)
+08-13 20:17:22.581 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.setCountPrivacyID -  - ($)
+08-13 20:17:22.581  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding][Presenter]TagBleRegisteringPresenter.requestRegistering - success - ($)
+08-13 20:17:22.582 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.setRegion -  - ($)
+08-13 20:17:22.583 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.setPrivacyIdInitialVector -  - ($)
+08-13 20:17:22.585 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.setServerEpochTime -  - ($)
+08-13 20:17:22.586 13666 14091 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.verifyTimeStamp - server timestamp = 1660385842
+08-13 20:17:22.592  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite ADVERTISE_ID
+08-13 20:17:22.594  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic ADVERTISE_ID
+08-13 20:17:23.159  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and d19ddd83-bbe1-4144-bb18-f3ceb57c480a with DA:**:**:**:**:**
+08-13 20:17:23.159  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite NUMBER_OF_PRIVACY_ID
+08-13 20:17:23.162  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic NUMBER_OF_PRIVACY_ID
+08-13 20:17:23.905  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and 7534c394-1f40-4d12-afd7-dc2a75bd6a44 with DA:**:**:**:**:**
+08-13 20:17:23.909  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite REGION
+08-13 20:17:23.911  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic REGION
+08-13 20:17:24.657  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and bebfaa51-dcb8-44de-a4b8-fc8c9c7ef46d with DA:**:**:**:**:**
+08-13 20:17:24.662  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite PRIVACY_ID_IV
+08-13 20:17:24.663  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic PRIVACY_ID_IV
+08-13 20:17:25.407  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and abd6e6ba-3843-4786-b9b2-b69548eed881 with DA:**:**:**:**:**
+08-13 20:17:25.412  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite TIME_SYNC
+08-13 20:17:25.413  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic TIME_SYNC
+08-13 20:17:26.158  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and dee30005-182d-5496-b1ad-14f216324184 with DA:**:**:**:**:**
+08-13 20:17:26.159  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - true TIME_SYNC
+08-13 20:17:26.905  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onDescriptorWrite - 0 and 00002902-0000-1000-8000-00805f9b34fb with DA:**:**:**:**:**
+08-13 20:17:26.907  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.notification - true TIME_SYNC
+08-13 20:17:26.910  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite TIME_SYNC
+08-13 20:17:26.911  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic TIME_SYNC
+08-13 20:17:27.657  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and dee30005-182d-5496-b1ad-14f216324184 with DA:**:**:**:**:**
+08-13 20:17:27.659 13666 15688 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter_CloudDataInjector.verifyTimeStamp - device timestamp = 1660385843
+08-13 20:17:27.659  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicChanged - dee30005-182d-5496-b1ad-14f216324184 with DA:**:**:**:**:**
+08-13 20:17:27.659 13666 15688 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter.releaseConnection - 
+08-13 20:17:27.659 13666 15688 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding][Presenter]TagBleRegisteringPresenter.setComplete - 
+08-13 20:17:27.660  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.pushActivateInternal - false TIME_SYNC
+08-13 20:17:27.668  3324 15100 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - subjectCharacteristicWrite SETUP_COMPLETE
+08-13 20:17:27.668  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineSender.writeInternal - writeCharacteristic SETUP_COMPLETE
+08-13 20:17:28.403 13666 14215 I [+10]oneconnect[1.7.86.21_02][MAIN_UI]: [Onboarding] RegisteredEventMediator.sendBroadcastForDevicesRegistered - 
+08-13 20:17:28.405  3324  5991 I [+10]oneconnect[1.7.86.21_02][CORE]: [Onboarding] PipelineCallback.onCharacteristicWrite - 0 and bcc8cce6-8af6-48dc-a0ae-547f7c095229 with DA:**:**:**:**:**

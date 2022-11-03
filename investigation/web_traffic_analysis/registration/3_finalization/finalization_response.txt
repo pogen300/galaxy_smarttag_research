@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Apr 2022 08:02:01 GMT
+Content-Type: application/json
+Connection: close
+Server: openresty
+X-RateLimit-Limit: 50
+X-RateLimit-Remaining: 50
+X-RateLimit-Reset: 2504
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: DNT,Keep-Alive,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,X-ST-Client,X-ST-Api-Version,X-ST-Client-AppVersion,X-ST-Client-OS,X-ST-Client-DeviceModel
+Content-Length: 433
+
+{"deviceId":"d0d6fc50...","configurationUrl":"https://apis.samsungiotcloud.com/v1/miniature/profile/c02e8c67-605d-44fc-89c6-2b7026b30b59","metadata":{"regionCode":12,"privacyIdPoolSize":1000,"privacyIdSeed":"AAAAAAAby8A=","privacyIdInitialVector":"WoaSTc1+Q5+kQhpnU4Mi3A==","currentServerTime":1649491320,"numAllowableConnections":"2","iBeacon":{"uuid":"NuG05A+4BHi0hlT+hDVIMA==","majorMinorId":"ABvLwA=="}}}

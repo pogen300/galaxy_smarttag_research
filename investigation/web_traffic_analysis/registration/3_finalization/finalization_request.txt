@@ -1,0 +1,16 @@
+POST /miniature/mobile HTTP/1.1
+X-ST-Client-OS: Android 8.0.0
+X-ST-Client-DeviceModel: samsung SM-G935F universal8890
+X-ST-Client-AppVersion: 1.7.83.21
+User-Agent: Android/OneApp/1.7.83.21/Main (SM-G935F; Android O/8.0.0) SmartKit/4.224.6
+Authorization: Bearer aIQyAN6mJngJKohk7RpN4x3p3
+Accept: application/vnd.smartthings+json;v=1
+Accept-Language: en-AU
+X-ST-CORRELATION: a5f590e5-102c-453e-bdf9-8df7587d5002
+Content-Type: application/json; charset=UTF-8
+Content-Length: 485
+Host: client.smartthings.com
+Connection: close
+Accept-Encoding: gzip, deflate
+
+{"tagData":{"firmware":{"specVersion":"0.5.3","version":"01.02.06"},"mnId":"0AFD","modelName":"EI-T5300","serialNumber":"FA...","setupId":"430"},"cipher":"AES_128-CBC-PKCS7Padding","configurationVersion":"2.0","identifier":"FA...","deviceName":"SmartTag","encryptionKey":"85DQk2uSOL3rVP23edxOtaPhDPjYfC8N9z-3ITiEl9k=","locationId":"bdea3570...","mnmn":"Samsung Electronics","roomId":"11ad8077...","vid":"IM-SmartTag-BLE"}

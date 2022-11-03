@@ -1,0 +1,3695 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "base.apk"
+  ],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "oneconnect",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "onboarding",
+      "oneconnect",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "smartthings",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "mobilething",
+      "smartthings",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base2.apk"
+    ],
+    [
+      "base",
+      "oneconnect",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "entity",
+      "base",
+      "oneconnect",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "onboarding",
+      "entity",
+      "base",
+      "oneconnect",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ],
+    [
+      "device",
+      "base",
+      "oneconnect",
+      "android",
+      "samsung",
+      "com",
+      "Source code",
+      "base.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "b()I"
+        },
+        "comment": "3: update, 2: removed, 1: added"
+      }
+    ],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.androidauto.notification.c"
+        },
+        "newName": "AaNotificationUtils"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0"
+        },
+        "newName": "DeviceCloudData"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.f0"
+        },
+        "newName": "DeviceCloudSubscriptionForInternal"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.g0"
+        },
+        "newName": "DeviceCloudSubscriptionForMde"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.h0"
+        },
+        "newName": "DeviceCloudSubscriptionForPlugin"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a"
+        },
+        "newName": "TagKeyManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a$b"
+        },
+        "newName": "ServerTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.b"
+        },
+        "newName": "TagPidManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.g.c"
+        },
+        "newName": "mQcDbListener"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a"
+        },
+        "newName": "SecurityUtil"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.i"
+        },
+        "newName": "GattActionConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.k"
+        },
+        "newName": "GattRssiManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d"
+        },
+        "newName": "EncryptManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e"
+        },
+        "newName": "TagGattConnectionManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e$a"
+        },
+        "newName": "TagBluetoothGattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a"
+        },
+        "newName": "DisconnectionHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.b"
+        },
+        "newName": "TagPushCommandProcessor"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.priority.a"
+        },
+        "newName": "TagPriorityConnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.priority.bond.TagBondCommand$a"
+        },
+        "newName": "GattCommand"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c"
+        },
+        "newName": "TagCommandUuids"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a"
+        },
+        "newName": "DeviceBleTagRepository"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.e"
+        },
+        "newName": "BleActionHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f"
+        },
+        "newName": "BleAuth"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a"
+        },
+        "newName": "SmartTagBleAuth"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.g"
+        },
+        "newName": "CipherSpec"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.i"
+        },
+        "newName": "ConvertBytesAndHexString"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.bleFinder.a"
+        },
+        "newName": "BleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.c"
+        },
+        "newName": "CloudInfoMakerFromBleThing"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e"
+        },
+        "newName": "DeviceStatusArgument"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.g"
+        },
+        "newName": "NonOwnerGattAction"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.i"
+        },
+        "newName": "GattWriteIndicationResult"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.k"
+        },
+        "newName": "NonOwnerEncryptManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.m"
+        },
+        "newName": "CommandServiceUUID"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c"
+        },
+        "newName": "SepBleHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.e2ee.f.e"
+        },
+        "newName": "SharedKeyManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.b"
+        },
+        "newName": "PreDiscoveryHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.a"
+        },
+        "newName": "BleParser"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.b"
+        },
+        "newName": "BleParserForCloudV2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.c"
+        },
+        "newName": "BleParserForSamsungConnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.d"
+        },
+        "newName": "BleParserForSamsungDiscovery"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e"
+        },
+        "newName": "BleParserForTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.f"
+        },
+        "newName": "BleParserForVD"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.g"
+        },
+        "newName": "BleParserHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.h.a"
+        },
+        "newName": "GedBleHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.samsung.android.oneconnect.manager.s0.b"
+        },
+        "newName": "AbstractDiscoveryManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.constant.e.a",
+          "shortId": "a:Landroid/os/ParcelUuid;"
+        },
+        "newName": "advertisementService"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBase",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBase",
+          "shortId": "c:I"
+        },
+        "newName": "discoveryType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBase",
+          "shortId": "d:J"
+        },
+        "newName": "services"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBase",
+          "shortId": "e:Z"
+        },
+        "newName": "isConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "h:Ljava/lang/String;"
+        },
+        "newName": "btMAC"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "j:Ljava/lang/String;"
+        },
+        "newName": "bleMAC"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "k:Ljava/lang/String;"
+        },
+        "newName": "p2pMAC"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "l:Ljava/lang/String;"
+        },
+        "newName": "hash"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "m:Ljava/lang/String;"
+        },
+        "newName": "crc"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "n:Ljava/lang/String;"
+        },
+        "newName": "phone"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "A:I"
+        },
+        "newName": "encFlag"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "B:I"
+        },
+        "newName": "uwbFlag"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "C:I"
+        },
+        "newName": "batterylevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "D:[B"
+        },
+        "newName": "signature"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "E:[B"
+        },
+        "newName": "reserved"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "F:J"
+        },
+        "newName": "lastReceivedTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "G:Z"
+        },
+        "newName": "isAvailable"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "q:[B"
+        },
+        "newName": "serviceData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "t:I"
+        },
+        "newName": "version"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "u:I"
+        },
+        "newName": "adType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "w:I"
+        },
+        "newName": "tagState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "x:I"
+        },
+        "newName": "agingCounter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "y:Ljava/lang/String;"
+        },
+        "newName": "privId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBleTag",
+          "shortId": "z:I"
+        },
+        "newName": "regionID"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "B:Lcom/samsung/android/oneconnect/base/device/h0;"
+        },
+        "newName": "deviceCloudSubscriptionForPlugin"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "C:Lcom/samsung/android/oneconnect/base/device/f0;"
+        },
+        "newName": "deviceCloudSubscriptionForInternal"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "D:Lcom/samsung/android/oneconnect/base/device/g0;"
+        },
+        "newName": "deviceCloudSubscriptionForMde"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "E:Ljava/lang/String;"
+        },
+        "newName": "advertisingId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "F:Ljava/lang/String;"
+        },
+        "newName": "configUrl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "G:Lcom/samsung/android/oneconnect/base/entity/net/cloud/BleD2dConfiguration;"
+        },
+        "newName": "bleD2dConfiguration"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "H:Lcom/samsung/android/oneconnect/base/device/d0;"
+        },
+        "newName": "deviceCloudData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "I:Z"
+        },
+        "newName": "isAvailableIncomingCall"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "J:Ljava/util/Set;"
+        },
+        "newName": "privacyIDPool"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "L:Lcom/samsung/android/oneconnect/base/device/tag/b;"
+        },
+        "newName": "tagPidManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "M:Z"
+        },
+        "newName": "isMasterOwnedTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "N:Lcom/samsung/android/oneconnect/base/entity/tag/TagMemberInfo;"
+        },
+        "newName": "tagMemberInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "O:Lcom/samsung/android/oneconnect/base/entity/net/cloud/metadata/bled2d/Firmware;"
+        },
+        "newName": "firmware"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "P:Lcom/samsung/android/oneconnect/base/device/devicecloud/D2dProfileInfo;"
+        },
+        "newName": "d2dProfileInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "h:Lcom/samsung/android/scclient/OCFDevice;"
+        },
+        "newName": "hasOcf"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "j:Ljava/util/Vector;"
+        },
+        "newName": "mSubjectUriList"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "p:Lcom/samsung/android/oneconnect/base/device/k0;"
+        },
+        "newName": "hasMetaData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "w:Ljava/lang/String;"
+        },
+        "newName": "zigbeeId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "z:Lcom/samsung/android/oneconnect/base/device/devicecloud/CloudContentsInfo;"
+        },
+        "newName": "contentsInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.QcDevice",
+          "shortId": "O:Lcom/samsung/android/oneconnect/base/entity/tag/TagMemberInfo;"
+        },
+        "newName": "tagMemberInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.QcDevice",
+          "shortId": "P:Lcom/samsung/android/oneconnect/base/device/DeviceBleTagState;"
+        },
+        "newName": "deviceBleTagState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "deviceType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "fwVer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "g:I"
+        },
+        "newName": "mMnmnType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "o:Ljava/lang/String;"
+        },
+        "newName": "mnmn"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "p:Ljava/lang/String;"
+        },
+        "newName": "vid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "t:Ljava/lang/String;"
+        },
+        "newName": "hwVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "w:Ljava/lang/String;"
+        },
+        "newName": "nick"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "x:Ljava/lang/String;"
+        },
+        "newName": "locale"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "blePrivacyString"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "bleAuthString"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "bleSigningString"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "d:Ljava/util/Map;"
+        },
+        "newName": "cloudIDMasterSecretMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "e:Ljava/util/Map;"
+        },
+        "newName": "cloudIDPrivacyIDPoolMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "f:Ljava/util/Map;"
+        },
+        "newName": "cloudIDServerTimeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "g:Ljava/util/Map;"
+        },
+        "newName": "cloudIDIVMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a$a",
+          "shortId": "a:Lcom/samsung/android/oneconnect/base/device/tag/a;"
+        },
+        "newName": "tagkeymng"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a$b",
+          "shortId": "a:J"
+        },
+        "newName": "serverTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a$b",
+          "shortId": "b:J"
+        },
+        "newName": "cur"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "b:Ljavax/crypto/SecretKey;"
+        },
+        "newName": "secretKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "b:Lcom/samsung/android/oneconnect/manager/action/x/g;"
+        },
+        "newName": "cipher_spec"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "c:[B"
+        },
+        "newName": "mastersecret"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "d:[B"
+        },
+        "newName": "m_nonce_e"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "e:[B"
+        },
+        "newName": "nonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "f:I"
+        },
+        "newName": "sent_cmd_cnt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "g:I"
+        },
+        "newName": "recv_indication_cnt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "b:Landroid/bluetooth/BluetoothDevice;"
+        },
+        "newName": "btDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "c:Landroid/bluetooth/BluetoothGatt;"
+        },
+        "newName": "btGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "e:Lcom/samsung/android/oneconnect/base/utils/r/d/c;"
+        },
+        "newName": "btCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "f:Lcom/samsung/android/oneconnect/feature/blething/tag/gatt/m/d;"
+        },
+        "newName": "encManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "g:Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/internal/GattConnectionState;"
+        },
+        "newName": "gattState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "i:Ljava/lang/String;"
+        },
+        "newName": "deviceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "j:Ljava/lang/String;"
+        },
+        "newName": "btMac"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "k:Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/internal/GattDescriptorManager;"
+        },
+        "newName": "gattDescriptorManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "l:Z"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "n:Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/internal/i;"
+        },
+        "newName": "gattWriteIndicationResult"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "o:Ljava/lang/Runnable;"
+        },
+        "newName": "doWriteBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "p:Landroid/bluetooth/BluetoothGattCallback;"
+        },
+        "newName": "tagBluetoothGattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e$a",
+          "shortId": "a:Ljava/util/concurrent/atomic/AtomicInteger;"
+        },
+        "newName": "gattConnectionCnt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.LeftBehindAlertSettingSharedPreference",
+          "shortId": "c:Lcom/samsung/android/oneconnect/feature/blething/tag/helper/LeftBehindAlertSettingSharedPreference;"
+        },
+        "newName": "leftBehindAlertSettingSharedPreference"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "a:Lcom/samsung/android/oneconnect/feature/blething/tag/helper/a;"
+        },
+        "newName": "disconnectionHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.a",
+          "shortId": "a:I"
+        },
+        "newName": "intervalMin"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.a",
+          "shortId": "b:I"
+        },
+        "newName": "intervalMax"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.a",
+          "shortId": "c:I"
+        },
+        "newName": "slaveLatency"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.a",
+          "shortId": "d:I"
+        },
+        "newName": "timeoutMultiplier"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "a:Ljava/util/UUID;"
+        },
+        "newName": "ringtoneForOwner"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "b:Ljava/util/UUID;"
+        },
+        "newName": "volume"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "c:Ljava/util/UUID;"
+        },
+        "newName": "tagButton"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "d:Ljava/util/UUID;"
+        },
+        "newName": "battery"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "e:Ljava/util/UUID;"
+        },
+        "newName": "timeInformation"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "f:Ljava/util/UUID;"
+        },
+        "newName": "idk"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "g:Ljava/util/UUID;"
+        },
+        "newName": "firmwareTransfer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "h:Ljava/util/UUID;"
+        },
+        "newName": "ringtoneForNonOwner"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "j:Ljava/util/UUID;"
+        },
+        "newName": "debug"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "l:Ljava/util/UUID;"
+        },
+        "newName": "bleConnectionSettings"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.a.c",
+          "shortId": "m:Ljava/util/UUID;"
+        },
+        "newName": "specVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "a:Lcom/samsung/android/oneconnect/l/a/a/b/a;"
+        },
+        "newName": "deviceBleTagRepository"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "a:Ljava/util/UUID;"
+        },
+        "newName": "AUTH_SERVICE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "c:Ljava/util/UUID;"
+        },
+        "newName": "NONCE_CHAR"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "d:Ljava/util/UUID;"
+        },
+        "newName": "ENCNONE_CHAR"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "e:Ljava/util/UUID;"
+        },
+        "newName": "AUTH_SERVICE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "f:Ljava/util/UUID;"
+        },
+        "newName": "NONCE_CHAR"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "h:Ljava/util/UUID;"
+        },
+        "newName": "ENCNONE_CHAR"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.f$a",
+          "shortId": "i:[B"
+        },
+        "newName": "smartthingsBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "a:J"
+        },
+        "newName": "minutes15"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "c:Lcom/samsung/android/oneconnect/manager/blething/DeviceStatusPublisher;"
+        },
+        "newName": "deviceStatusPublisher"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "a:I"
+        },
+        "newName": "event"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "b:Lcom/samsung/android/oneconnect/base/device/QcDevice;"
+        },
+        "newName": "qcDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "c:Lcom/samsung/android/oneconnect/base/device/DeviceBase;"
+        },
+        "newName": "deviceBase"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "d:Z"
+        },
+        "newName": "onDemand"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "a:Ljava/util/concurrent/ConcurrentHashMap;"
+        },
+        "newName": "tagGattConnectionManagerMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.g",
+          "shortId": "e:Lcom/samsung/android/oneconnect/base/utils/r/d/c;"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.i",
+          "shortId": "c:Ljava/util/UUID;"
+        },
+        "newName": "uuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.c",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "p2pMAC"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.a",
+          "shortId": "c:Z"
+        },
+        "newName": "checkAndroidVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.h.a",
+          "shortId": "c:Lcom/samsung/android/oneconnect/manager/r0/f/a;"
+        },
+        "newName": "bleParser"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.h.a",
+          "shortId": "k:Ljava/util/ArrayList;"
+        },
+        "newName": "deviceBLEArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.debug.k",
+          "shortId": "e(Ljava/lang/String;)[B"
+        },
+        "newName": "string2Bytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Lcom/samsung/android/oneconnect/base/device/DeviceType;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceBle",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Lcom/samsung/android/oneconnect/base/device/DeviceType;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "services"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "G(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "checkVendorId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "I(Ljava/util/Vector;)V"
+        },
+        "newName": "getRemoteRepresentation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "J(Ljava/lang/Boolean;)V"
+        },
+        "newName": "checkContentsPanelSupported"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "N()Lkotlin/r;"
+        },
+        "newName": "onParsingFinished"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "V(Ljava/lang/String;)Lcom/samsung/android/scclient/OCFResult;"
+        },
+        "newName": "retrySubscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "Z()V"
+        },
+        "newName": "setInactiveResource"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "b0(Ljava/util/Vector;)Lcom/samsung/android/scclient/OCFResult;"
+        },
+        "newName": "startSubscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "c0(Ljava/util/Vector;)Lcom/samsung/android/scclient/OCFResult;"
+        },
+        "newName": "startSubscribeByInterface"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.DeviceCloud",
+          "shortId": "f0()V"
+        },
+        "newName": "updateLocalRuleEventActionList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "C()Ljava/lang/String;"
+        },
+        "newName": "getLocale"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "G()Ljava/lang/String;"
+        },
+        "newName": "getmnmn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "I()I"
+        },
+        "newName": "getmMnmnType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "L()Ljava/lang/String;"
+        },
+        "newName": "getnick"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "b0()Ljava/lang/String;"
+        },
+        "newName": "getvid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "h()Ljava/lang/String;"
+        },
+        "newName": "getDeviceType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "v()Ljava/lang/String;"
+        },
+        "newName": "getFwVer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.d0",
+          "shortId": "z()Ljava/lang/String;"
+        },
+        "newName": "gethwVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getCloudID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "b(Ljava/lang/String;)[B"
+        },
+        "newName": "getMasterSecret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "b(Ljava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "privacyIDPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "c([BI[B)[B"
+        },
+        "newName": "getKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "c([BI[B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "masterSecret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "c([BI[B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "length"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "encryptWithGivenKey([B[BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "bleDataPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "encryptWithGivenKey([B[BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "encryptWithGivenKey([B[BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "privacyIDPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "encryptWithGivenKey([B[BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589827
+        },
+        "newName": "iv"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "generateCommandKey([B[B)[B"
+        },
+        "newName": "generateGattKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "getSignature([BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "signature4bytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "getSignature([BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "mastersecret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "getSignature([BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "signingKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "getSignature([BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262145
+        },
+        "newName": "bleDataPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "getSignature([BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "bleData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "getSignature([BLjava/lang/String;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "privacyIDPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "needToUpdateAgingCounter(Ljava/lang/String;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "privacyIDPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a",
+          "shortId": "needToUpdateAgingCounter(Ljava/lang/String;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "agingCounter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.a$b",
+          "shortId": "a()J"
+        },
+        "newName": "currentTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.b",
+          "shortId": "generatePrivacyIdPool(Ljava/lang/String;Ljava/lang/String;I)Ljava/util/Set;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "pidSeed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.b",
+          "shortId": "generatePrivacyIdPool(Ljava/lang/String;Ljava/lang/String;I)Ljava/util/Set;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "pidKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.device.tag.b",
+          "shortId": "generatePrivacyIdPool(Ljava/lang/String;Ljava/lang/String;I)Ljava/util/Set;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "poolSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.f",
+          "shortId": "x()Z"
+        },
+        "newName": "isNexus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "decryptString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "b()V"
+        },
+        "newName": "deleteKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "c(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "encryptString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "d()Z"
+        },
+        "newName": "generateKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "e(Landroid/content/Context;)Lcom/samsung/android/oneconnect/base/utils/s/a;"
+        },
+        "newName": "getInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.base.utils.s.a",
+          "shortId": "j()V"
+        },
+        "newName": "loadKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.i$a",
+          "shortId": "c(Ljava/lang/String;Ljava/util/UUID;[B)Lcom/samsung/android/oneconnect/base/entity/net/cloud/BleD2dCapability;"
+        },
+        "newName": "convertCapability"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.i$a",
+          "shortId": "d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/oneconnect/base/entity/net/cloud/a;"
+        },
+        "newName": "convertGattActionToReadOrNotify"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.i$a",
+          "shortId": "e(Ljava/lang/String;Landroid/os/Bundle;)Lcom/samsung/android/oneconnect/base/entity/net/cloud/a;"
+        },
+        "newName": "convertGattActionToWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "a([B)Z"
+        },
+        "newName": "compareSharedInput"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "b([B)I"
+        },
+        "newName": "bytes2int"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "d([B)[B"
+        },
+        "newName": "decryptCommand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131077
+        },
+        "newName": "cnt_bytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131078
+        },
+        "newName": "cnt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "e([B)[B"
+        },
+        "newName": "decryptIndication"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "f([B)[B"
+        },
+        "newName": "decryptNonceT"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "f([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "nonce_t"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "g([B)[B"
+        },
+        "newName": "decryptReadResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "h([B)[B"
+        },
+        "newName": "encryptCommand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "i()[B"
+        },
+        "newName": "encryptNonceE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "k()[B"
+        },
+        "newName": "getMNonceE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "l([B)[B"
+        },
+        "newName": "getPlainReadResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "n(Z)V"
+        },
+        "newName": "incCNT"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "o(Ljava/lang/String;[B)V"
+        },
+        "newName": "getMastersecret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.d",
+          "shortId": "p([B)V"
+        },
+        "newName": "copyTagNonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "C()V"
+        },
+        "newName": "closeGATT"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "E()V"
+        },
+        "newName": "gattDisconnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "F()V"
+        },
+        "newName": "doOnCommandSuccess"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "G()V"
+        },
+        "newName": "doOnConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "H()V"
+        },
+        "newName": "doOnDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "I(ZLandroid/bluetooth/BluetoothGattCharacteristic;)V"
+        },
+        "newName": "doOnReadCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "J()V"
+        },
+        "newName": "doOnSecureHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "K()V"
+        },
+        "newName": "doOnServiceDiscovered"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "L()V"
+        },
+        "newName": "doOnSessionEstablished"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "M(ILandroid/bluetooth/BluetoothGattCharacteristic;)V"
+        },
+        "newName": "doOnWrittenCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "P()V"
+        },
+        "newName": "doWritingEncryptedNonceE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "Q()V"
+        },
+        "newName": "doWritingNonceE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "R()V"
+        },
+        "newName": "doWritingTagCCCD"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "S()Ljava/lang/String;"
+        },
+        "newName": "getBtMac"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "T()Landroid/bluetooth/BluetoothGatt;"
+        },
+        "newName": "getBtGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "U(Ljava/util/UUID;Ljava/util/UUID;)V"
+        },
+        "newName": "getCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "V()Ljava/lang/String;"
+        },
+        "newName": "getDeviceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "W()Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/internal/GattConnectionState;"
+        },
+        "newName": "getGattState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "Y()V"
+        },
+        "newName": "internalForceDisconnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "Z()V"
+        },
+        "newName": "doWritingTagCCCD"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "a()V"
+        },
+        "newName": "readRemoteRssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "a0(Ljava/lang/String;Ljava/lang/String;Z[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "mBluetoothGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "a0(Ljava/lang/String;Ljava/lang/String;Z[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristicUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "a0(Ljava/lang/String;Ljava/lang/String;Z[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "a0(Ljava/lang/String;Ljava/lang/String;Z[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "isEncryptionNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "a0(Ljava/lang/String;Ljava/lang/String;Z[B)V"
+        },
+        "newName": "writeBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "c0()V"
+        },
+        "newName": "setConnectionStateOperating"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "d0(Ljava/lang/String;)V"
+        },
+        "newName": "setAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "e0(Ljava/lang/String;Ljava/lang/Boolean;)V"
+        },
+        "newName": "setCharacteristicNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "f0(Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/internal/GattConnectionState;)V"
+        },
+        "newName": "setConnectionStateChange"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "g0(Ljava/lang/String;[B)Z"
+        },
+        "newName": "setEncryption"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "h0(Ljava/lang/String;Ljava/lang/String;[BZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "h0(Ljava/lang/String;Ljava/lang/String;[BZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "characteristicUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "h0(Ljava/lang/String;Ljava/lang/String;[BZ)V"
+        },
+        "newName": "doGattAction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e",
+          "shortId": "h0(Ljava/lang/String;Ljava/lang/String;[BZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "isEncryptionNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e$a",
+          "shortId": "a()V"
+        },
+        "newName": "incrementAndGetGattConnectionCnt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e$a",
+          "shortId": "b(I)Z"
+        },
+        "newName": "allowConnectionRetry"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.gatt.m.e$a",
+          "shortId": "c()V"
+        },
+        "newName": "resetAtomicInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.LeftBehindAlertSettingSharedPreference",
+          "shortId": "a()J"
+        },
+        "newName": "getLeftBehindTimeOut"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.LeftBehindAlertSettingSharedPreference",
+          "shortId": "b()J"
+        },
+        "newName": "leftBehindTimeOut"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "c(Ljava/lang/String;)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "deviceID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "c(Ljava/lang/String;)J"
+        },
+        "newName": "disconnectedTimeThreshold"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "d(Ljava/lang/String;)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "deviceID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "d(Ljava/lang/String;)J"
+        },
+        "newName": "packageReceiveTimeThreshold"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "e()V"
+        },
+        "newName": "initialize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "f(Ljava/lang/String;)Z"
+        },
+        "newName": "isGattConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "g(Ljava/lang/String;)Z"
+        },
+        "newName": "isGattDisconnectedJustNow"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "h(Ljava/lang/String;)Z"
+        },
+        "newName": "isNearBy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "i(Ljava/lang/String;)Z"
+        },
+        "newName": "isNonOwnerGattConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "j(Ljava/lang/String;)Z"
+        },
+        "newName": "isNonOwnerPacketConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.a",
+          "shortId": "k(Ljava/lang/String;)Z"
+        },
+        "newName": "isPacketConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.helper.b",
+          "shortId": "b(Lcom/google/gson/JsonObject;Ljava/lang/String;)V"
+        },
+        "newName": "handleCapabilityType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.feature.blething.tag.manager.DisconnectionManager",
+          "shortId": "h(Lcom/samsung/android/oneconnect/base/device/QcDevice;)V"
+        },
+        "newName": "publishingTagStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "B(Lcom/samsung/android/oneconnect/base/device/DeviceBase;)Z"
+        },
+        "newName": "isDeviceBleTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "D(Ljava/lang/String;)Z"
+        },
+        "newName": "isTagOwner"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "E(Ljava/lang/String;)Z"
+        },
+        "newName": "isTagOwnerFromDeviceID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "E(Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "tagAddrNotBlank"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "F(Ljava/lang/String;)Z"
+        },
+        "newName": "receivedStrongPacketOrConnectionTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "H(Ljava/lang/String;)Z"
+        },
+        "newName": "isTagOwnerAndLba"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "I(Ljava/lang/String;)Z"
+        },
+        "newName": "isLbaOrCameraShutter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "L(Ljava/lang/String;J)V"
+        },
+        "newName": "setTagConnectionTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "M(Ljava/lang/String;I)V"
+        },
+        "newName": "setCloudDeviceDisconnectionReason"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "i(Ljava/lang/String;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "cloudID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "i(Ljava/lang/String;)I"
+        },
+        "newName": "getDisconnectionReasonFromCloudID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "j(Ljava/lang/String;)J"
+        },
+        "newName": "getDisconnectionTimeFromCloudID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "p()Ljava/util/List;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "emptyList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "p()Ljava/util/List;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131074
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.l.a.a.b.a",
+          "shortId": "p()Ljava/util/List;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "isGATTConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.h",
+          "shortId": "r()V"
+        },
+        "newName": "doOnSessionEstablished"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.h",
+          "shortId": "u()V"
+        },
+        "newName": "doOnWrittenEncryptedNonce"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.h",
+          "shortId": "v()V"
+        },
+        "newName": "doSecureHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.i",
+          "shortId": "a(Ljava/lang/String;)[B"
+        },
+        "newName": "hexString2Bytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.action.x.i",
+          "shortId": "b([B)Ljava/lang/String;"
+        },
+        "newName": "bytes2HexString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceBleThingsManager",
+          "shortId": "Q(Lcom/samsung/android/oneconnect/manager/blething/d;)V"
+        },
+        "newName": "updateDeviceBleThings"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "A(Lcom/samsung/android/oneconnect/base/device/DeviceBleTag;)Z"
+        },
+        "newName": "isTagOffline"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "B(Lcom/samsung/android/oneconnect/manager/blething/e;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "cloudID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "B(Lcom/samsung/android/oneconnect/manager/blething/e;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "deviceStatusArgument"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "B(Lcom/samsung/android/oneconnect/manager/blething/e;Z)V"
+        },
+        "newName": "updateGeolocationTagState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "C(Lcom/samsung/android/oneconnect/manager/blething/DeviceStatusPublisher;Lcom/samsung/android/oneconnect/manager/blething/e;ZILjava/lang/Object;)V"
+        },
+        "newName": "updateGeolocationRemovedTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "e(ILjava/lang/String;Lcom/samsung/android/oneconnect/base/entity/net/cloud/BleD2dCapability;)V"
+        },
+        "newName": "handleDeviceBleTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "g(ILcom/samsung/android/oneconnect/base/device/QcDevice;Lcom/samsung/android/oneconnect/base/device/DeviceBase;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "event"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "g(ILcom/samsung/android/oneconnect/base/device/QcDevice;Lcom/samsung/android/oneconnect/base/device/DeviceBase;)V"
+        },
+        "newName": "handleDeviceBleThing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "h(Lcom/samsung/android/oneconnect/base/device/DeviceBase;Lcom/samsung/android/oneconnect/base/device/QcDevice;)V"
+        },
+        "newName": "handleNonAvailableTag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "i(Lcom/samsung/android/oneconnect/manager/blething/e;)Z"
+        },
+        "newName": "tagNotOnDemandOrRemoved"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "j(Lcom/samsung/android/oneconnect/manager/blething/e;)Z"
+        },
+        "newName": "isFirstTimeOfPostingGeolocation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "o(Lcom/samsung/android/oneconnect/manager/blething/e;)Z"
+        },
+        "newName": "isTimeToPostGeolocation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "q(Ljava/lang/String;II)V"
+        },
+        "newName": "publishDeviceStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "r(Lcom/samsung/android/oneconnect/base/device/QcDevice;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "publishDeviceStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "s(Lcom/samsung/android/oneconnect/manager/blething/e;)V"
+        },
+        "newName": "publishDeviceStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "t(Ljava/lang/String;II)V"
+        },
+        "newName": "publishDeviceStatusByCloud"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "u(Lcom/samsung/android/oneconnect/manager/blething/e;)V"
+        },
+        "newName": "publishDeviceStatusByCloud"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "v(Lcom/samsung/android/oneconnect/manager/blething/e;)V"
+        },
+        "newName": "publishDeviceStatusToUi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "z(Ljava/lang/String;II)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "cloudID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "z(Ljava/lang/String;II)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "event"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "z(Ljava/lang/String;II)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "disconnectionReason"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.DeviceStatusPublisher",
+          "shortId": "z(Ljava/lang/String;II)Z"
+        },
+        "newName": "shouldCheckTrustedLocation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.bleFinder.BleFinderScanController",
+          "shortId": "f(Ljava/lang/String;Lkotlinx/coroutines/u1;)V"
+        },
+        "newName": "cancelJob"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.bleFinder.BleFinderScanController",
+          "shortId": "m(Ljava/lang/String;)V"
+        },
+        "newName": "startNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.c",
+          "shortId": "b(Lcom/samsung/android/oneconnect/base/device/DeviceBleThing;)V"
+        },
+        "newName": "handleBleThingAdded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.c",
+          "shortId": "c(Lcom/samsung/android/oneconnect/base/device/DeviceBleThing;)V"
+        },
+        "newName": "handleBleThingRemoved"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.c",
+          "shortId": "d(Lcom/samsung/android/oneconnect/base/device/DeviceBleThing;Lcom/samsung/android/oneconnect/base/device/DeviceBleThing;)V"
+        },
+        "newName": "handleBleThingUpdated"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "\u003cinit\u003e(ILcom/samsung/android/oneconnect/base/device/QcDevice;Lcom/samsung/android/oneconnect/base/device/DeviceBase;)V"
+        },
+        "newName": "DeviceStatusArguments"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "\u003cinit\u003e(ILcom/samsung/android/oneconnect/base/device/QcDevice;Lcom/samsung/android/oneconnect/base/device/DeviceBase;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "event"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "\u003cinit\u003e(ILcom/samsung/android/oneconnect/base/device/QcDevice;Lcom/samsung/android/oneconnect/base/device/DeviceBase;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "event"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "a()Lcom/samsung/android/oneconnect/base/device/DeviceBase;"
+        },
+        "newName": "getDeviceBase"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "b()I"
+        },
+        "newName": "getEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "c()Z"
+        },
+        "newName": "isOnDemand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.e",
+          "shortId": "d()Lcom/samsung/android/oneconnect/base/device/QcDevice;"
+        },
+        "newName": "getQcDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.blething.firmware.b",
+          "shortId": "d(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "showNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "A(Ljava/lang/String;Ljava/util/UUID;I)V"
+        },
+        "newName": "onCharacteristicWriteFail"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "D(Ljava/lang/String;)Z"
+        },
+        "newName": "forceDisconnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "E(Ljava/lang/String;II)V"
+        },
+        "newName": "onReadRemoteRssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "G(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[BLcom/samsung/android/oneconnect/manager/bluetooth/gatt/a;)Z"
+        },
+        "newName": "writeByteArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "H(Ljava/lang/String;[BLjava/util/UUID;)V"
+        },
+        "newName": "onCharacteristicWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "I(Ljava/lang/String;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/g;)V"
+        },
+        "newName": "registerServiceCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "K(I)V"
+        },
+        "newName": "disconnectNonPriorityConnections"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "L()V"
+        },
+        "newName": "handleDisconnectTags"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "M(Ljava/lang/String;[BLjava/util/UUID;)V"
+        },
+        "newName": "invokeControlServiceCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "N(Ljava/lang/String;[BLjava/util/UUID;)V"
+        },
+        "newName": "invokeControlServiceNotificationListener"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "T(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "tagInfoToString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "V(Ljava/lang/String;[BLjava/util/UUID;)V"
+        },
+        "newName": "publishDeviceStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "W(Lcom/samsung/android/oneconnect/feature/blething/tag/gatt/m/e;I)V"
+        },
+        "newName": "publishDisconnectDeviceStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "Z(Ljava/lang/String;)Z"
+        },
+        "newName": "setEncryption"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "b(Ljava/lang/String;I)V"
+        },
+        "newName": "onConnectionStateChange"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "c(Ljava/lang/String;[BLjava/util/UUID;)V"
+        },
+        "newName": "onCharacteristicRead"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "d(Ljava/lang/String;J)V"
+        },
+        "newName": "setTagConnectionTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "e(Ljava/lang/String;J)V"
+        },
+        "newName": "startReadRemoteRssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "f(Landroid/content/Context;Ljava/lang/String;)Lcom/samsung/android/oneconnect/base/device/tag/TagConnectionState;"
+        },
+        "newName": "getTagConnectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "g(Ljava/lang/String;ZLjava/util/UUID;)V"
+        },
+        "newName": "onDescriptorWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "h(Ljava/lang/String;)Landroid/bluetooth/BluetoothGatt;"
+        },
+        "newName": "getBluetoothGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/i;)V"
+        },
+        "newName": "registerControlServiceNotificationListener"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "j(Ljava/lang/String;)Z"
+        },
+        "newName": "isConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "l(Ljava/lang/String;[BLjava/util/UUID;)V"
+        },
+        "newName": "onCharacteristicChanged"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "o(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getMacAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "p(Ljava/lang/String;Landroid/os/Bundle;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/a;)Z"
+        },
+        "newName": "doGattAction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLcom/samsung/android/oneconnect/manager/bluetooth/gatt/h;)V"
+        },
+        "newName": "setCharacteristicNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "v(Ljava/lang/String;)V"
+        },
+        "newName": "stopReadRemoteRssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "w(Ljava/lang/String;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/g;)V"
+        },
+        "newName": "unregisterServiceCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "y(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/k;)V"
+        },
+        "newName": "readControlServiceNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "z(Ljava/lang/String;Lcom/samsung/android/oneconnect/base/entity/net/cloud/a;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/a;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/c;)Z"
+        },
+        "newName": "doGattAction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl",
+          "shortId": "z(Ljava/lang/String;Lcom/samsung/android/oneconnect/base/entity/net/cloud/a;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/a;Lcom/samsung/android/oneconnect/manager/bluetooth/gatt/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "tagGattConnectionManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattActionManagerImpl$c",
+          "shortId": "a(Ljava/lang/String;Lcom/samsung/android/oneconnect/feature/blething/tag/gatt/m/e;)V"
+        },
+        "newName": "handleDisconnectTags"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattDescriptorManager",
+          "shortId": "c(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattDescriptor;I)V"
+        },
+        "newName": "onDescriptorWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.GattDescriptorManager",
+          "shortId": "d(Landroid/bluetooth/BluetoothGatt;Ljava/util/UUID;Ljava/util/UUID;Z)Z"
+        },
+        "newName": "setCharacteristicNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.g",
+          "shortId": "J(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "setAnonymousSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.g",
+          "shortId": "K(Ljava/lang/String;Z)V"
+        },
+        "newName": "setCharacteristicNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.g",
+          "shortId": "z()V"
+        },
+        "newName": "doWritingTagCCCD"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.i",
+          "shortId": "c(Ljava/util/UUID;)V"
+        },
+        "newName": "uuidEqual"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.bluetooth.gatt.internal.k",
+          "shortId": "c([B)[B"
+        },
+        "newName": "decryptCommand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "J()V"
+        },
+        "newName": "startBleScanWithOptions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "L(Landroid/os/Message;)V"
+        },
+        "newName": "startLeScan"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "M(I)V"
+        },
+        "newName": "startScan"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "p(Landroid/os/Message;)V"
+        },
+        "newName": "SepBleHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "q(Landroid/os/Message;)V"
+        },
+        "newName": "handleBlePacketMessage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "r(Landroid/os/Message;)V"
+        },
+        "newName": "handleBleScanMessage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "t()Z"
+        },
+        "newName": "isScanRequired"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "u()Z"
+        },
+        "newName": "needScanQcBg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.discoveryhelper.ble.sep.c",
+          "shortId": "v(Landroid/bluetooth/BluetoothDevice;ILandroid/bluetooth/le/ScanRecord;)V"
+        },
+        "newName": "parseScPacket"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.b$d",
+          "shortId": "a(ILjava/lang/String;Ljava/lang/String;IZ[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "p2pmac"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.c",
+          "shortId": "\u003cinit\u003e(ILjava/lang/String;Ljava/lang/String;I[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "p2pMAC"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.a",
+          "shortId": "b(Lcom/samsung/android/oneconnect/base/device/DeviceBle;Lcom/samsung/android/oneconnect/base/device/DeviceBle;)Z"
+        },
+        "newName": "isBLESame"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.a",
+          "shortId": "c(Landroid/bluetooth/le/ScanResult;Z)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393217
+        },
+        "newName": "deviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.a",
+          "shortId": "c(Landroid/bluetooth/le/ScanResult;Z)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "newName": "parseBlePacket"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.a",
+          "shortId": "d(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "newName": "parseMirrorLinkPacket"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "advertisementType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "tagState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655366
+        },
+        "newName": "agingCounter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720897
+        },
+        "newName": "privacyIDPart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2031616
+        },
+        "newName": "deviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2097152
+        },
+        "newName": "bleMac"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2162688
+        },
+        "newName": "bleData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "newName": "parseBLEPacket"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.e",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;[BI)Lcom/samsung/android/oneconnect/base/device/DeviceBle;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2228224
+        },
+        "newName": "rssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.g",
+          "shortId": "c(Landroid/bluetooth/le/ScanRecord;Landroid/bluetooth/BluetoothDevice;)Ljava/lang/String;"
+        },
+        "newName": "getDeviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.h.a",
+          "shortId": "d(Lcom/samsung/android/oneconnect/base/device/DeviceBle;)V"
+        },
+        "newName": "addDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.r0.f.h.a",
+          "shortId": "k(Z)V"
+        },
+        "newName": "removeAllDiscoveredDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.s0.b",
+          "shortId": "K(I)Ljava/lang/String;"
+        },
+        "newName": "getEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.s0.b",
+          "shortId": "T0(Lcom/samsung/android/oneconnect/base/device/DeviceBase;I)I"
+        },
+        "newName": "updateDeviceList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.s0.b",
+          "shortId": "b0(Lcom/samsung/android/oneconnect/base/entity/net/cloud/b;)V"
+        },
+        "newName": "onEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.manager.s0.b",
+          "shortId": "u()V"
+        },
+        "newName": "clearDeviceList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.support.onboarding.category.tagble.entity.a",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "lostmessage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.support.onboarding.category.tagble.entity.a",
+          "shortId": "b()Lcom/samsung/android/oneconnect/support/onboarding/category/tagble/entity/Status;"
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.samsung.android.oneconnect.ui.onboarding.category.tagble.registering.TagBleRegisteringPresenter$checkPossessionStatus$2",
+          "shortId": "a(Lcom/samsung/android/oneconnect/support/onboarding/category/tagble/entity/a;)V"
+        },
+        "newName": "checkRegisteredStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "kotlin.jvm.internal.o",
+          "shortId": "e(Ljava/lang/Object;Ljava/lang/Object;)Z"
+        },
+        "newName": "objEqual"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "kotlin.jvm.internal.o",
+          "shortId": "i(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "isArgumentNull"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.oneconnect.ui.onboarding.category.tagble.registering.TagBleRegisteringPresenter",
+      "subPath": "java",
+      "caret": 10980,
+      "view": {
+        "x": 57522,
+        "y": 662
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.oneconnect.ui.onboarding.category.tagble.registering.TagBleRegisteringPresenter$checkPossessionStatus$2",
+      "subPath": "java",
+      "caret": 5149,
+      "view": {
+        "x": 0,
+        "y": 891
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.oneconnect.support.onboarding.category.tagble.entity.a",
+      "subPath": "java",
+      "caret": 806,
+      "view": {
+        "x": 0,
+        "y": 386
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.samsung.android.oneconnect.support.onboarding.category.tagble.entity.Status",
+      "subPath": "java",
+      "caret": 698,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 2
+}

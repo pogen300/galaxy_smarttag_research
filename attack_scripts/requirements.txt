@@ -1,0 +1,14 @@
+bluepy==1.3.0
+colorama==0.4.4
+cryptography==3.4.8
+gobject==0.1.0
+pycryptodome==3.15.0
+pytz==2021.3
+six==1.16.0
+termcolor==1.1.0
+dbus-python
+gobject==0.1.0
+cm-rgb
+PyGObject
+PyGObject-stubs==1.0.0
+pyfiglet==0.8.post1

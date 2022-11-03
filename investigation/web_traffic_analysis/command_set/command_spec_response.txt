@@ -1,0 +1,796 @@
+HTTP/2 200 OK
+Date: Wed, 09 Mar 2022 03:06:15 GMT
+Content-Type: application/json
+
+{
+    "fingerprints": [
+        {
+            "mnmn": "Samsung Electronics",
+            "vid": "IM-SmartTag-BLE"
+        }
+    ],
+    "version": "0.1.0",
+    "bearer": [
+        "gatt",
+        "adv"
+    ],
+    "scanFilter": [],
+    "capabilities": [
+        {
+            "name": "alarm",
+            "href": "/capability/alarm/main/0",
+            "attributes": [
+                {
+                    "name": "alarm",
+                    "property": "alarm",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30001-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "integer",
+                            "alternative": [
+                                {
+                                    "key": "0",
+                                    "value": "off"
+                                },
+                                {
+                                    "key": "1",
+                                    "value": "siren"
+                                }
+                            ]
+                        },
+                        "default": {
+                            "value": 0
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "off",
+                    "property": "alarm",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30001-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0"
+                    }
+                },
+                {
+                    "name": "siren",
+                    "property": "alarm",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30001-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "audioVolume",
+            "href": "/capability/audioVolume/main/0",
+            "attributes": [
+                {
+                    "name": "volume",
+                    "property": "volume",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30002-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "integer",
+                            "min": 0,
+                            "max": 2
+                        },
+                        "default": {
+                            "value": 2
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "setVolume",
+                    "property": "volume",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30002-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "arguments": [
+                            {
+                                "name": "volume",
+                                "value": {
+                                    "valueType": "integer",
+                                    "min": 0,
+                                    "max": 2
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "tag.tagButton",
+            "href": "/capability/tag.tagButton/main/0",
+            "attributes": [
+                {
+                    "name": "tagButton",
+                    "property": "tagButton.value",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30003-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "integer",
+                            "alternative": [
+                                {
+                                    "key": "1",
+                                    "value": "pushed"
+                                },
+                                {
+                                    "key": "2",
+                                    "value": "held"
+                                },
+                                {
+                                    "key": "3",
+                                    "value": "pushed_2x"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "setButtonPush",
+                    "property": "tagButton.buttonPushState",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30003-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0",
+                        "arguments": [
+                            {
+                                "name": "buttonPushState",
+                                "value": {
+                                    "valueType": "integer",
+                                    "alternative": [
+                                        {
+                                            "key": "0",
+                                            "value": "disabled"
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "enabled"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "setButtonHold",
+                    "property": "tagButton.buttonHoldState",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30003-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1",
+                        "arguments": [
+                            {
+                                "name": "buttonHoldState",
+                                "value": {
+                                    "valueType": "integer",
+                                    "alternative": [
+                                        {
+                                            "key": "0",
+                                            "value": "disabled"
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "enabled"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "battery",
+            "href": "/capability/battery/main/0",
+            "attributes": [
+                {
+                    "name": "battery",
+                    "property": "charge",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30004-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "integer",
+                            "min": 0,
+                            "max": 4
+                        },
+                        "default": {
+                            "source": "device"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "timeInformation",
+            "attributes": [
+                {
+                    "name": "timeInformation",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30005-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "byteArray"
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "setUTCTime",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30005-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0",
+                        "arguments": [
+                            {
+                                "name": "utcTime",
+                                "value": {
+                                    "valueType": "uint64"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "setPrematureOfflineTimeout",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30005-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1",
+                        "arguments": [
+                            {
+                                "name": "prematureOfflineTimeout",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "setOfflineTimeout",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30005-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "2",
+                        "arguments": [
+                            {
+                                "name": "offlineTimeout",
+                                "value": {
+                                    "valueType": "uint32"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "notifyTimeInformation",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30005-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "3"
+                    }
+                },
+                {
+                    "name": "setOvermatureOfflinePrivacyIdInterval",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30005-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "4",
+                        "arguments": [
+                            {
+                                "name": "interval",
+                                "value": {
+                                    "valueType": "uint8"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "tag.factoryReset",
+            "href": "/capability/tag.factoryReset/main/0",
+            "attributes": [],
+            "commands": [
+                {
+                    "name": "reset",
+                    "property": "command",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30006-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "tag.e2eEncryption",
+            "href": "/capability/tag.e2eEncryption/main/0",
+            "attributes": [
+                {
+                    "name": "encryption",
+                    "property": "encryption.value",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30007-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "integer",
+                            "alternative": [
+                                {
+                                    "key": "0",
+                                    "value": "off"
+                                },
+                                {
+                                    "key": "1",
+                                    "value": "on"
+                                }
+                            ]
+                        },
+                        "default": {
+                            "value": 0
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "off",
+                    "property": "encryption.value",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30007-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0"
+                    }
+                },
+                {
+                    "name": "on",
+                    "property": "encryption.value",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30007-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ringtoneUpdate",
+            "attributes": [
+                {
+                    "name": "ringtoneName",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000A-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "string"
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "transferRingtoneInformation",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000A-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0",
+                        "arguments": [
+                            {
+                                "name": "totalRingtoneSize",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "totalRingtoneCRC16",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "ringtoneNameLength",
+                                "value": {
+                                    "valueType": "uint8"
+                                }
+                            },
+                            {
+                                "name": "ringtoneName",
+                                "value": {
+                                    "valueType": "string"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "transferRingtone",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000A-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1",
+                        "arguments": [
+                            {
+                                "name": "offset",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "ringtoneDataLength",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "ringtoneData",
+                                "value": {
+                                    "valueType": "byteArray"
+                                }
+                            },
+                            {
+                                "name": "argumentsCRC16",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "firmwareVersion",
+            "attributes": [
+                {
+                    "name": "firmwareVersion",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000B-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "string"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "firmwareTransfer",
+            "attributes": [
+                {
+                    "name": "firmwareTransferStatus",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000C-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "byteArray"
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "transferFirmwareInformation",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000C-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0",
+                        "arguments": [
+                            {
+                                "name": "totalFirmwareSize",
+                                "value": {
+                                    "valueType": "uint32"
+                                }
+                            },
+                            {
+                                "name": "totalFirmwareCRC16",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "newFirmwareVersionLength",
+                                "value": {
+                                    "valueType": "uint8"
+                                }
+                            },
+                            {
+                                "name": "newFirmwareVersion",
+                                "value": {
+                                    "valueType": "string"
+                                }
+                            },
+                            {
+                                "name": "transferWindow",
+                                "value": {
+                                    "valueType": "uint8"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "transferFirmwareData",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000C-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1",
+                        "arguments": [
+                            {
+                                "name": "offset",
+                                "value": {
+                                    "valueType": "uint32"
+                                }
+                            },
+                            {
+                                "name": "segmentedFirmwareDataLength",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "segmentedFirmwareData",
+                                "value": {
+                                    "valueType": "byteArray"
+                                }
+                            },
+                            {
+                                "name": "argumentsCRC16",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "cancelFirmwareUpdate",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000C-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "bleConnectionSettings",
+            "attributes": [
+                {
+                    "name": "bleConnectionSettings",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000D-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "byteArray"
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "setMaxAllowedBLEConnections",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000D-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0",
+                        "arguments": [
+                            {
+                                "name": "maxAllowedBLEConnections",
+                                "value": {
+                                    "valueType": "uint8",
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "setBLEConnectionParameter",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000D-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1",
+                        "arguments": [
+                            {
+                                "name": "intervalMin",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "intervalMax",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            },
+                            {
+                                "name": "slaveLatency",
+                                "value": {
+                                    "valueType": "uint8"
+                                }
+                            },
+                            {
+                                "name": "timeoutMultiplier",
+                                "value": {
+                                    "valueType": "uint16"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "setBLEConnectionParameterIdle",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000D-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "specVersion",
+            "attributes": [
+                {
+                    "name": "specVersion",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE3000E-182D-5496-B1AD-14F216324184",
+                        "cipher": "none",
+                        "value": {
+                            "valueType": "string"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ringtoneForNonOwner",
+            "attributes": [
+                {
+                    "name": "alarm",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30020-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "integer",
+                            "alternative": [
+                                {
+                                    "key": "0",
+                                    "value": "off"
+                                },
+                                {
+                                    "key": "1",
+                                    "value": "siren"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "off",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30020-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0"
+                    }
+                },
+                {
+                    "name": "siren",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30020-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "1"
+                    }
+                },
+                {
+                    "name": "sirenWithTimeout",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30020-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "2",
+                        "arguments": [
+                            {
+                                "name": "timeout",
+                                "value": {
+                                    "valueType": "uint8"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "debug",
+            "attributes": [
+                {
+                    "name": "log",
+                    "local": true,
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30030-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "value": {
+                            "valueType": "byteArray"
+                        }
+                    }
+                }
+            ],
+            "commands": [
+                {
+                    "name": "startLogTransfer",
+                    "gatt": {
+                        "service": "0000FD5A-0000-1000-8000-00805F9B34FB",
+                        "characteristic": "DEE30030-182D-5496-B1AD-14F216324184",
+                        "cipher": "aes-cbc-128-pkcs7padding",
+                        "opCode": "0"
+                    }
+                }
+            ]
+        }
+    ]
+}

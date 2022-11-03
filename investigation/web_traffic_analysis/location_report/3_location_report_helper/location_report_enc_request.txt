@@ -1,0 +1,11 @@
+POST /geolocations HTTP/1.1
+Authorization: Bearer eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiY3R5IjoiSldUIn0.LVuCFT0TO9zaLgGs4Kc_0AH5LdgEY17QLz2S28hHeashv-3FpzMW2Q.Z9EAelSMGZ3FQ9gSpy5dSg.wzX_ezYKT5rUzaKLPZXgE2y1KWCQdyN5LGMvd8JBdugVROS5unE8qF--InUzbUIzNNvTkncamQJs_hDUh5KNUAdx68h_BrNmSUOU7Imy8gdrRRxN-Jtvrg1SKiIw7Ymwhg0TSSGNUBbm4t0nIVchwkXc48hSIxFikEV_z5X0DPRzP-d7uhDuTo4xyujct-sv3i6BLv0MQL_n8Bq1A42ewoDZKOC8NDy2zipBvjNewDwzwSSNCgazDpM-oOXO4EaxpNLtLjai7j6h35dMtjPH0eEVXCqDEWA-ngvebpr2vD4svfNWMzEMlKEtDabPzH3XmwlQS2NV2V_nlAkR8Gd_L5bmhxQK6VPas8cr0ff-sRt5S4xZMKb75pNlrDfxLuyiQNXMCtOt7Atea-YFssq2-cUYzrZYQcSNASJumkxbSw5gzKACqvAcGyYkLDm9PU7X9WAXkeBQmfLQX1kOMjvN2ZNBundap5D4zlEepxgMSK4KbHR7YLUZSdIv_mNqF8tw.YUgzo_CF2MTPWFGG7HvocA
+x-fmm-extra: {"dist":0,"resultCode":"1002","spAcc":0,"version":"7.2.24.12"}
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G935F Build/R16NW)
+Host: chaser-ap03-apnortheast2.samsungiotcloud.com
+Connection: close
+Accept-Encoding: gzip, deflate
+Content-Length: 737
+
+{"items":[{"geolocation":{"accuracy":"20.849","battery":"FULL","latitude":"BO6tjIOGTwsY0MIhMUaZPWfeSWWxtEN3kk7yWCdbnOpqjlhzdLF1Z7Z4sPSd2rNeolSAl0B\/HhXtYqDd1pcIldwiF+MCd8aN9jcZShpxlR0MTLFZAZx3nkvmQtaxo3zN","longitude":"BEzEieyPAw9JWfg6C6ThO82\/uVH3tkzQLDT4q9F9JFVrN7YUaEHzbwVuySReYGeyicnnKceB6iZwguKeejy8jEaMCWJikJA7hpeMTUN8CYs2uIFRPrlC\/ceAQEpW8Epl","method":"wifi","rssi":"-36","speed":"0.0","timeStamp":1658380687189,"valid":true},"tagAdvertisement":{"serviceData":"EvUYAX\/YrrkoYLdrywAAAEAiSlc="}}],"findNode":{"configuration":{"allowManualGeolocation":false,"allowedNlpGap":2000,"src":"chaser"},"host":"GALAXY_PHONE","id":"b50caaf12de...","type":"MOVING","version":"722400012"}}

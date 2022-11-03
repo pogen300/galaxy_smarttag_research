@@ -1,0 +1,24 @@
+{
+   "users":[
+   {
+       "userauth_token":"DEFAULT",
+       "login_id":"TODO",
+       "password":"TODO",
+       "signature":"TODO",
+       "certificate":"TODO",
+       "nonce":"TODO",
+       "signin_client_secret":"TODO",
+       "location_id":"TODO",
+       "room_id":"TODO",
+       "device_id":[
+       ],
+       "requester":"TODO",
+       "bearer_token":"DEFAULT",
+       "jwe_token":"DEFAULT",
+       "fmm_app_id":"TODO",
+       "physical_address_text":"TODO",
+       "signin_client_id":"TODO",
+       "client_id":"TODO"
+   }
+   ]
+}
