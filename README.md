@@ -97,4 +97,4 @@ To inspect the modification, you will need to download the nRF SDK 17.1.0 from t
 + replace ``nRF5_SDK_17.1.0/components/libraries/bootloader`` with the modified ``bootloader`` folder
 + add the ``ble_app_buttonless_dfu_aes`` folder to ``nRF5_SDK_17.1.0/examples/ble_peripheral``
 
-The DFU AES application can be opened in SEGGER embedded studio. To flash and test the application, You will need to have an nRF DK (the one I used was nRF52832).
+The DFU AES application can be opened in SEGGER embedded studio. To flash and test the application, You will need to have an nRF DK (the one I used was nRF52840).
